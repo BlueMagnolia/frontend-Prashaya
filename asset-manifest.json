@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/frontend-Prashaya/static/css/main.b4fde242.chunk.css",
+    "main.js": "/frontend-Prashaya/static/js/main.027e2642.chunk.js",
+    "main.js.map": "/frontend-Prashaya/static/js/main.027e2642.chunk.js.map",
+    "runtime-main.js": "/frontend-Prashaya/static/js/runtime-main.5585018c.js",
+    "runtime-main.js.map": "/frontend-Prashaya/static/js/runtime-main.5585018c.js.map",
+    "static/css/2.bea6f0b1.chunk.css": "/frontend-Prashaya/static/css/2.bea6f0b1.chunk.css",
+    "static/js/2.e1028aca.chunk.js": "/frontend-Prashaya/static/js/2.e1028aca.chunk.js",
+    "static/js/2.e1028aca.chunk.js.map": "/frontend-Prashaya/static/js/2.e1028aca.chunk.js.map",
+    "index.html": "/frontend-Prashaya/index.html",
+    "precache-manifest.77af76206372ed96886dcd1a73c03e4d.js": "/frontend-Prashaya/precache-manifest.77af76206372ed96886dcd1a73c03e4d.js",
+    "service-worker.js": "/frontend-Prashaya/service-worker.js",
+    "static/css/2.bea6f0b1.chunk.css.map": "/frontend-Prashaya/static/css/2.bea6f0b1.chunk.css.map",
+    "static/css/main.b4fde242.chunk.css.map": "/frontend-Prashaya/static/css/main.b4fde242.chunk.css.map",
+    "static/js/2.e1028aca.chunk.js.LICENSE": "/frontend-Prashaya/static/js/2.e1028aca.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5585018c.js",
+    "static/css/2.bea6f0b1.chunk.css",
+    "static/js/2.e1028aca.chunk.js",
+    "static/css/main.b4fde242.chunk.css",
+    "static/js/main.027e2642.chunk.js"
+  ]
+}
