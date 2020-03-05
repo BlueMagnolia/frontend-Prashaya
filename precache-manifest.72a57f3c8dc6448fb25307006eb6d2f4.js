@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "391f5a30f23ddb7cc26786b92a72e317",
+    "revision": "b6bd77d7a4257eb6e61839f596835710",
     "url": "/frontend-Prashaya/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/frontend-Prashaya/static/css/2.bea6f0b1.chunk.css"
   },
   {
-    "revision": "73707177544696793e67",
-    "url": "/frontend-Prashaya/static/css/main.b7d3b71c.chunk.css"
+    "revision": "72b5f9a5c0de6fb89989",
+    "url": "/frontend-Prashaya/static/css/main.070435e3.chunk.css"
   },
   {
     "revision": "327573410f8b7f3d8b9b",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/frontend-Prashaya/static/js/2.0243003d.chunk.js.LICENSE"
   },
   {
-    "revision": "73707177544696793e67",
-    "url": "/frontend-Prashaya/static/js/main.7e9d6079.chunk.js"
+    "revision": "72b5f9a5c0de6fb89989",
+    "url": "/frontend-Prashaya/static/js/main.d45617ae.chunk.js"
   },
   {
     "revision": "a87224480f8d3edc2b4c",
