@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/frontend-Prashaya/static/css/main.070435e3.chunk.css",
-    "main.js": "/frontend-Prashaya/static/js/main.d45617ae.chunk.js",
-    "main.js.map": "/frontend-Prashaya/static/js/main.d45617ae.chunk.js.map",
+    "main.css": "/frontend-Prashaya/static/css/main.db9ed3f5.chunk.css",
+    "main.js": "/frontend-Prashaya/static/js/main.ea9fadfe.chunk.js",
+    "main.js.map": "/frontend-Prashaya/static/js/main.ea9fadfe.chunk.js.map",
     "runtime-main.js": "/frontend-Prashaya/static/js/runtime-main.5585018c.js",
     "runtime-main.js.map": "/frontend-Prashaya/static/js/runtime-main.5585018c.js.map",
-    "static/css/2.bea6f0b1.chunk.css": "/frontend-Prashaya/static/css/2.bea6f0b1.chunk.css",
-    "static/js/2.0243003d.chunk.js": "/frontend-Prashaya/static/js/2.0243003d.chunk.js",
-    "static/js/2.0243003d.chunk.js.map": "/frontend-Prashaya/static/js/2.0243003d.chunk.js.map",
+    "static/css/2.d88ce3aa.chunk.css": "/frontend-Prashaya/static/css/2.d88ce3aa.chunk.css",
+    "static/js/2.98700e6a.chunk.js": "/frontend-Prashaya/static/js/2.98700e6a.chunk.js",
+    "static/js/2.98700e6a.chunk.js.map": "/frontend-Prashaya/static/js/2.98700e6a.chunk.js.map",
     "index.html": "/frontend-Prashaya/index.html",
-    "precache-manifest.72a57f3c8dc6448fb25307006eb6d2f4.js": "/frontend-Prashaya/precache-manifest.72a57f3c8dc6448fb25307006eb6d2f4.js",
+    "precache-manifest.cf4f77644a13391d9d8aa40718e0e3ab.js": "/frontend-Prashaya/precache-manifest.cf4f77644a13391d9d8aa40718e0e3ab.js",
     "service-worker.js": "/frontend-Prashaya/service-worker.js",
-    "static/css/2.bea6f0b1.chunk.css.map": "/frontend-Prashaya/static/css/2.bea6f0b1.chunk.css.map",
-    "static/css/main.070435e3.chunk.css.map": "/frontend-Prashaya/static/css/main.070435e3.chunk.css.map",
-    "static/js/2.0243003d.chunk.js.LICENSE": "/frontend-Prashaya/static/js/2.0243003d.chunk.js.LICENSE"
+    "static/css/2.d88ce3aa.chunk.css.map": "/frontend-Prashaya/static/css/2.d88ce3aa.chunk.css.map",
+    "static/css/main.db9ed3f5.chunk.css.map": "/frontend-Prashaya/static/css/main.db9ed3f5.chunk.css.map",
+    "static/js/2.98700e6a.chunk.js.LICENSE": "/frontend-Prashaya/static/js/2.98700e6a.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.5585018c.js",
-    "static/css/2.bea6f0b1.chunk.css",
-    "static/js/2.0243003d.chunk.js",
-    "static/css/main.070435e3.chunk.css",
-    "static/js/main.d45617ae.chunk.js"
+    "static/css/2.d88ce3aa.chunk.css",
+    "static/js/2.98700e6a.chunk.js",
+    "static/css/main.db9ed3f5.chunk.css",
+    "static/js/main.ea9fadfe.chunk.js"
   ]
 }
