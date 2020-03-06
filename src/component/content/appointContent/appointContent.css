@@ -1,32 +1,42 @@
-@import url('https://fonts.googleapis.com/css?family=Prompt:300,400,500&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Prompt:300,400,500&display=swap");
 /* .dropMenu {
 
 } */
 .listConsult {
-    font-family: 'Prompt', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 .listConsult h3 {
-    font-size: 20px;
-    color: #34558B;
+  font-size: 20px;
+  color: #34558b;
 }
-.listConsult-ul {
-    list-style: none;
-}
-#linkConsult:hover {
-    background-color: #BBE8D8;
-    /* padding: 10px; */
+
+.linkConsult:hover {
+  background-color: #bbe8d8;
+  /* padding: 10px; */
 }
 .timeSelect {
-    font-family: 'Prompt', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 .timeSelect h3 {
-    font-size: 20px;
-    color: #34558B;
+  font-size: 20px;
+  color: #34558b;
 }
 /* .timeSelect {
     
 } */
+.consult-box {
+  /* display: flex; */
+  /* flex-direction: column; */
+  border-bottom: 1px solid #34558b;
+}
+.avatar-small {
+  height: 50px;
+  width: 50px;
+  background-color: #34558b;
+  border-radius: 50%;
+  display: inline-block;
+}

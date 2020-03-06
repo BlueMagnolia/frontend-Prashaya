@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Row, Col } from "antd";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import axios from "axios";
 import "./logoutContent.scss";
 import { withRouter } from "react-router-dom";
@@ -123,7 +123,8 @@ class LogoutContent extends Component {
                       type="text"
                       className="shadowBox"
                       name="email"
-                      value={this.state.email}
+                      // value={this.state.email}
+                      value="nareratSavehj@gmail.com"
                       onChange={e => this.setState({ email: e.target.value })}
                     />
                     <br />
@@ -135,7 +136,8 @@ class LogoutContent extends Component {
                       type="password"
                       className="shadowBox"
                       name="password"
-                      value={this.state.password}
+                      // value={this.state.password}
+                      value="5678879"
                       onChange={e =>
                         this.setState({ password: e.target.value })
                       }
@@ -144,12 +146,14 @@ class LogoutContent extends Component {
                     <br />
                     <br />
                     <div className="centerButton">
-                      <input
-                        type="submit"
-                        name="confirmConsult"
-                        className="btn-grad2"
-                        onClick={this.handleLoginPatient}
-                      />
+                      <Link to="/appointPatientRoom">
+                        <input
+                          type="submit"
+                          name="confirmConsult"
+                          className="btn-grad2"
+                          // onClick={this.handleLoginPatient}
+                        />
+                      </Link>
                     </div>
                   </form>
                   <br />
@@ -173,6 +177,7 @@ class LogoutContent extends Component {
                         e.preventDefault();
                         this.setState({ email: e.target.value });
                       }}
+                      value="vichaiVena@gmail.com"
                     />
                     <br />
                     <label for="titleBox" id="textInput">
@@ -187,17 +192,20 @@ class LogoutContent extends Component {
                         e.preventDefault();
                         this.setState({ password: e.target.value });
                       }}
+                      value="123456"
                     />
                     <br />
                     <br />
                     <br />
                     <div className="centerButton">
-                      <input
-                        type="submit"
-                        name="confirmConsult"
-                        className="btn-grad2"
-                        onClick={this.handleLoginConsult}
-                      />
+                      <Link to="/appointConsultRoom">
+                        <input
+                          type="submit"
+                          name="confirmConsult"
+                          className="btn-grad2"
+                          // onClick={this.handleLoginConsult}
+                        />
+                      </Link>
                     </div>
                   </form>
                   <br />

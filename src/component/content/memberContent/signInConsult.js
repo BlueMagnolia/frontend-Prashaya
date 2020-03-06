@@ -144,7 +144,8 @@ handleUserInput = (e) => {
                           className="shadowBox"
                           name="consult_name"
                           required
-                          value={this.state.consult_name}
+                          // value={this.state.consult_name}
+                          value="วิชาย เวนา"
                           onChange={e => this.handleUserInput(e)}
                         />
                         <br />
@@ -159,7 +160,8 @@ handleUserInput = (e) => {
                             type="text"
                             className="shadowBox"
                             name="email"
-                            value={this.state.email}
+                            // value={this.state.email}
+                            value="vichaiVena@gmail.com"
                             onChange={e => this.handleUserInput(e)}
                           />
                         </div>
@@ -175,7 +177,8 @@ handleUserInput = (e) => {
                             type="password"
                             className="shadowBox"
                             name="password"
-                            value={this.state.password}
+                            // value={this.state.password}
+                            value="123456"
                             onChange={this.handleUserInput}
                           />
                         </div>
@@ -187,7 +190,8 @@ handleUserInput = (e) => {
                           className="shadowBox"
                           name="tel"
                           pattern="[0-9]{10}"
-                          value={this.state.tel}
+                          // value={this.state.tel}
+                          value="0234567889"
                           onChange={e => this.handleUserInput(e)}
                         />
                         <br />
@@ -199,6 +203,7 @@ handleUserInput = (e) => {
                             type="radio"
                             name="role"
                             value="psychiatrist"
+                            checked
                             onChange={e => this.handleUserInput(e)}
                           />{" "}
                           จิตแพทย์
@@ -253,7 +258,8 @@ handleUserInput = (e) => {
                       type="text"
                       className="shadowBox"
                       name="ref_name"
-                      value={this.state.ref_name}
+                      // value={this.state.ref_name}
+                      value="วลามล มณีทรัพย์"
                       onChange={e => this.handleUserInput(e)}
                     />
                     <br />
@@ -263,7 +269,8 @@ handleUserInput = (e) => {
                       type="text"
                       className="shadowBox"
                       name="ref_position"
-                      value={this.state.ref_position}
+                      // value={this.state.ref_position}
+                      value="ศาสตราจารย์"
                       onChange={e => this.handleUserInput(e)}
                     />
                     <br />
@@ -274,7 +281,8 @@ handleUserInput = (e) => {
                       className="shadowBox"
                       name="ref_tel"
                       pattern="[0-9]{10}"
-                      value={this.state.ref_tel}
+                      // value={this.state.ref_tel}
+                      value="0834562367"
                       onChange={e => this.handleUserInput(e)}
                     />
                     <br />
@@ -294,12 +302,14 @@ handleUserInput = (e) => {
                     <br />
 
                     <div className="centerButton">
-                      <input
-                        type="submit"
-                        className="btn-grad2"
-                        // disabled={!this.state.formValid}
-                        onClick={e => this.handleSubmit(e)}
-                      />
+                      <Link to="/registerConsultSuccess">
+                        <input
+                          type="submit"
+                          className="btn-grad2"
+                          // disabled={!this.state.formValid}
+                          onClick={e => this.handleSubmit(e)}
+                        />
+                      </Link>
                     </div>
                   </form>
                 </Col>

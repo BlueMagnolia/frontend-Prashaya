@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Row, Col, Table, Button, DatePicker } from "antd";
+import { Row, Col, Table, Button, DatePicker, Tag } from "antd";
+import moment from "moment";
 import "./appointContent.css";
 import axios from "axios";
 
@@ -10,6 +11,8 @@ const columns = [
     className: "tableSelectTime"
   }
 ];
+
+const dateFormat = "YYYY/MM/DD";
 
 export class AppointContent extends Component {
          state = {
@@ -131,18 +134,18 @@ export class AppointContent extends Component {
                <Row>
                  <Col span={1}></Col>
                  <Col span={3} className="dropMenu">
-                   {/* <div>
+                   <div className="listConsult">
                      <h3>หัวข้อปรึกษา</h3>
                      <input
                        type="checkbox"
                        name="typeTalk"
                        value="การเรียนรู้"
                      />
-                     การเรียนรู้
+                     &nbsp;การเรียนรู้
                      <br />
                      <hr />
                      <input type="checkbox" name="typeTalk" value="ซึมเศร้า" />
-                     ซึมเศร้า
+                     &nbsp;ซึมเศร้า
                      <br />
                      <hr />
                      <input
@@ -150,22 +153,23 @@ export class AppointContent extends Component {
                        name="typeTalk"
                        value="การไปโรงเรียน"
                      />
-                     การไปโรงเรียน
+                     &nbsp;การไปโรงเรียน
                      <br />
                      <hr />
-                   </div> */}
+                   </div>
                  </Col>
-                 {/* <Col span={1}></Col> */}
+                 <Col span={1}></Col>
                  <Col span={8} className="listConsult">
                    <div>
                      <h3>กรุณาเลือกผู้ให้คำปรึกษา</h3>
                      <hr />
-                     {this.state.consultData.map(list => (
+                     {/* {this.state.consultData.map(list => (
                        <Row>
-                         <div onClick={() => this.listConsultSave(list.id)} id="linkConsult">
-                           <Col>
-                              Image
-                           </Col>
+                         <div
+                           onClick={() => this.listConsultSave(list.id)}
+                           id="linkConsult"
+                         >
+                           <Col>Image</Col>
                            <Col>
                              <h4>{list.consult_name}</h4>
                              <p>{list.role}</p>
@@ -177,7 +181,38 @@ export class AppointContent extends Component {
                            </Col>
                          </div>
                        </Row>
-                     ))}
+                     ))} */}
+                     <Row className="consult-box">
+                       <Col span={5}>
+                         <p className="avatar-small"></p>
+                       </Col>
+                       <Col span={11}>
+                         <h4>วิชาย เวนา</h4>
+                         <p>จิตแพทย์</p>
+                         <p>1,500 บาท/ 30 นาที</p>
+                         <div className="listConsult-ul">
+                           <Tag color="blue">ซึมเศร้า</Tag>
+                           <Tag color="blue">ปัญหาความเครียด</Tag>
+                         </div>
+                         <br />
+                       </Col>
+                     </Row>
+                     <br />
+                     <Row className="consult-box">
+                       <Col span={5}>
+                         <p className="avatar-small"></p>
+                       </Col>
+                       <Col span={11}>
+                         <h4>รวารตรี เพลานพ</h4>
+                         <p>นักจิตวิทยา</p>
+                         <p>1,500 บาท/ 30 นาที</p>
+                         <div className="listConsult-ul">
+                           <Tag color="blue">นอนไม่หลับ</Tag>
+                           <Tag color="blue">ปัญหาความเครียด</Tag>
+                         </div>
+                         <br />
+                       </Col>
+                     </Row>
                    </div>
                  </Col>
                  <Col span={2}></Col>
@@ -186,9 +221,11 @@ export class AppointContent extends Component {
                    <hr />
                    <br />
                    <DatePicker
+                     defaultValue={moment("2015/01/01", dateFormat)}
                      onChange={this.onChangeDate}
                      className="dateSelect"
                    />
+                   &nbsp;&nbsp;
                    <Button
                      className="btn-Save"
                      onClick={() => this.handleSelect()}
@@ -197,7 +234,7 @@ export class AppointContent extends Component {
                    </Button>
                    <br />
                    <br />
-                   <hr/>
+                   <hr />
                    <Table
                      onChange={this.handleTable}
                      rowSelection={rowSelection}
@@ -208,12 +245,13 @@ export class AppointContent extends Component {
                    <br />
                    <Button
                      className="btn-Save"
-                     onClick={() => this.handleSave()}
+                     //  onClick={() => this.handleSave()}
                    >
                      Save
                    </Button>
+                   <br />
+                   <br />
                  </Col>
-                 <Col span={2}></Col>
                </Row>
              </div>
            );

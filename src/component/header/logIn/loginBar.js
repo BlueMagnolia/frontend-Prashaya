@@ -22,9 +22,9 @@ export class LoginBar extends Component {
                             <Row>&nbsp;</Row>
                             <Row>&nbsp;</Row>
                             <Row className="navbar">
-                                <Link to="/#" className="home">หน้าหลัก</Link> &nbsp;
-                                <Link to="/appointRoom" className="appoint">นัดหมาย</Link> &nbsp;
-                                <Link to="/#" className="videoCall">Video Call</Link> &nbsp;
+                                <Link to="/appointConsultRoom" className="home">หน้าหลัก</Link> &nbsp;
+                                <Link to="/appointConsultRoom" className="appoint">นัดหมาย</Link> &nbsp;
+                                <Link to="/appointConsultRoom" className="videoCall">Video Call</Link> &nbsp;
                                 <Link to="/login" className="logout">ออกจากระบบ</Link>
                             </Row>
                         </Col>

@@ -18,7 +18,7 @@ function App() {
     <main>
       <Switch>
         {/* ------------=== LOG OUT ===------------- */}
-        <Route path="/homeOut" component={HomeOut} exact />
+        <Route path="/" component={HomeOut} exact />
         <Route path="/consult" component={Consult} />
         <Route path="/registerConsult" component={SignInConsultPage} />
         <Route

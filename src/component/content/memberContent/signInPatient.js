@@ -145,7 +145,8 @@ handleUserInput = (e) => {
                           type="text"
                           className="shadowBox"
                           name="patient_name"
-                          value={this.state.patient_name}
+                          // value={this.state.patient_name}
+                          value="นารีรัตน์ สาเวช"
                           onChange={e => this.handleUserInput(e)}
                         />
                         <br />
@@ -155,7 +156,8 @@ handleUserInput = (e) => {
                           type="text"
                           className="shadowBox"
                           name="email"
-                          value={this.state.email}
+                          // value={this.state.email}
+                          value="nareratSavehj@gmail.com"
                           onChange={e => this.handleUserInput(e)}
                         />
                         <br />
@@ -165,7 +167,8 @@ handleUserInput = (e) => {
                           type="password"
                           className="shadowBox"
                           name="password"
-                          value={this.state.password}
+                          // value={this.state.password}
+                          value="5678879"
                           onChange={e => this.handleUserInput(e)}
                         />
                         <br />
@@ -176,7 +179,8 @@ handleUserInput = (e) => {
                           className="shadowBox"
                           name="tel"
                           pattern="[0-9]{10}"
-                          value={this.state.tel}
+                          // value={this.state.tel}
+                          value="0745678903"
                           onChange={e => this.handleUserInput(e)}
                         />
                         <br />
@@ -197,6 +201,7 @@ handleUserInput = (e) => {
                             type="radio"
                             name="gender"
                             value="female"
+                            checked
                             onChange={e => this.handleUserInput(e)}
                           />{" "}
                           หญิง
@@ -210,6 +215,7 @@ handleUserInput = (e) => {
                           name="pin_number"
                           pattern="[0-9]{13}"
                           onChange={e => this.handleUserInput(e)}
+                          value="1345678921145"
                         />
                         <br />
                         <label for="titleBox">วัน / เดือน / ปีเกิด</label>
@@ -228,6 +234,7 @@ handleUserInput = (e) => {
                           className="shadowBox"
                           name="address"
                           onChange={e => this.handleUserInput(e)}
+                          value="123/45 หมู่บ้านศุภาลัย แขวงคลองเกษม เขตอ่อนนุช กทม."
                         />
                         <br />
                         <br />
@@ -249,6 +256,7 @@ handleUserInput = (e) => {
                       className="shadowBox"
                       name="parent_name"
                       onChange={e => this.handleUserInput(e)}
+                      value="กมลวรรณ สาเวช"
                     />
                     <br />
                     <label for="titleBox">ความสัมพันธ์</label>
@@ -257,6 +265,7 @@ handleUserInput = (e) => {
                       type="text"
                       className="shadowBox"
                       name="parent_rel"
+                      value="คุณแม่"
                       onChange={e => this.handleUserInput(e)}
                     />
                     <br />
@@ -267,6 +276,7 @@ handleUserInput = (e) => {
                       className="shadowBox"
                       name="parent_tel"
                       pattern="[0-9]{10}"
+                      value="0345121344"
                       onChange={e => this.handleUserInput(e)}
                     />
 
@@ -275,11 +285,13 @@ handleUserInput = (e) => {
                     <br />
                     <br />
                     <div className="centerButton">
-                      <input
-                        type="submit"
-                        className="btn-grad2"
-                        onClick={e => this.handleSubmit(e)}
-                      />
+                      <Link to="/registerPatientSuccessPage">
+                        <input
+                          type="submit"
+                          className="btn-grad2"
+                          onClick={e => this.handleSubmit(e)}
+                        />
+                      </Link>
                     </div>
                   </form>
                 </Col>
